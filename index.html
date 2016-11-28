@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Foodie</title>
+	<link rel="stylesheet" type="text/css" href="main.css" />
+</head>	
+<body>
+	<header>
+		<h1>Vad vill du äta idag?</h1>
+	</header>
+	<main>
+		<div id="meal" title="Länk till recept för denna maträtt">
+			<a href=http://www.koket.se/markus-aujalay/kottbullar-med-rarorda-lingon-och-potatismos />Köttbullar med lingon</a>
+		</div>
+		<div id="newCourse" onclick="newDish()" title="Klicka här för att generera en ny maträtt">
+			<p>Blää! Jag vill ha nåt annat</p>
+		</div>
+		<div id="check">
+			<input type="checkbox" id="checkedBox" title="Kryssa i denna ruta för att visa enbart vegetariska rätter">Jag är vegetarian<br/>
+		</div>
+	</main>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
